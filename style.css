@@ -1,0 +1,96 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background-image: url(./pics/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+form{
+    width: 100%;
+    height: 50%;
+    margin-top: 60px;
+    padding: 20px;
+    border-radius: 8px;
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+.content-container{
+    background: rgba(255, 255, 255, 0.38);
+    margin: 15px;
+    border-radius: 8px;
+    padding: 40px 40px 40px 40px;
+    max-width: 400px;
+    height: 100%; 
+    text-align: left;
+}
+
+
+.register-container{
+    position: relative;
+    margin-top: 15px;
+ 
+}
+.register-container>img{
+    position: absolute;
+    bottom: 23px;
+    right: 60px;
+}
+
+.register-container>input{
+    outline: none;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 8px;
+}
+
+.pass-container{
+    position: relative;
+    margin-top: 15px;
+}
+.pass-container>img{
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+}
+
+.pass-container>input{
+    outline: none;
+    padding: 15px 0 15px 30px;
+    width: 100%;
+}
+
+button{
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: #6DA01E;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
